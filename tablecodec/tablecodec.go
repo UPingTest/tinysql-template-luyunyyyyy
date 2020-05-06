@@ -73,6 +73,7 @@ func EncodeRowKeyWithHandle(tableID int64, handle int64) kv.Key {
 func DecodeRecordKey(key kv.Key) (tableID int64, handle int64, err error) {
 	/* Your code here */
 	// test jenkins
+	// test master
 	return
 }
 
